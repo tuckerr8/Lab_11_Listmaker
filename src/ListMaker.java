@@ -26,7 +26,7 @@ public class ListMaker {
             case "P" -> print(myArrayList);
             case "Q" -> System.out.println("Quitting...");
         }
-        
+
     }
 
     private static void add(ArrayList<String> list){
@@ -54,6 +54,7 @@ public class ListMaker {
         System.out.println("Enter name to delete: ");
         deleted = in.nextLine();
         list.remove(deleted);
+        System.out.println(list);
     }
 
     private static void print(ArrayList<String> list) {
